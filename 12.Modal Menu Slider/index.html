@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts Lexend Zetta-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/dist/css/modalMenuSlider.css" />
+    <script src="/dist/js/modalMenuSlider.js" defer></script>
+    <title>Modal Menu Slider</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="/dist/img/profile.jpg"
+          alt="profile"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, quos.
+      </p>
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aliquid
+        odio exercitationem veniam soluta mollitia pariatur culpa architecto
+        facere eaque?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+        corrupti?
+      </p>
+
+      <h2>Tell me more</h2>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        aliquam quibusdam dicta accusamus explicabo autem quas? Obcaecati vero
+        recusandae sunt dolor, non harum, reiciendis illum facere labore eaque
+        quod esse.
+      </p>
+
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime access</li>
+        <li>30 Days Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex odio optio
+        nisi quaerat repudiandae voluptas ab debitis accusamus enim ipsam
+        distinctio sint aliquid, ipsum eveniet perferendis odit! Fugit, magnam
+        provident! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Molestiae, quod ut et possimus beatae atque dolorum nobis error illum
+        dignissimos earum quas, odio in quasi, libero sed ea vel. Similique.
+      </p>
+    </div>
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, Support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" class="form-input">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter email" class="form-input">
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter password" class="form-input">
+            </div>
+            <div>
+              <label for="Confirm-password">Confirm Password</label>
+              <input type="password" id="password2" placeholder="Confirm Password" class="form-input">
+            </div>
+            <input type="submit" value="submit" class="submit-btn" >
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
